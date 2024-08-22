@@ -1,0 +1,250 @@
+.dataTable-wrapper.no-header .dataTable-container {
+	border-top: 1px solid #d9d9d9;
+}
+
+
+.dataTable-top,
+.dataTable-bottom {
+	padding: 8px 10px;
+}
+
+.dataTable-top > div:first-child,
+.dataTable-bottom > div:first-child {
+	float: left;
+}
+
+.dataTable-top > div:last-child,
+.dataTable-bottom > div:last-child {
+	float: right;
+}
+
+.dataTable-input {
+	padding: 6px 12px;
+}
+
+.dataTable-info {
+	margin: 7px 0;
+}
+
+
+.dataTable-pagination a {
+	border: 1px solid transparent;
+	float: left;
+	margin-left: 2px;
+	padding: 6px 12px;
+	position: relative;
+	text-decoration: none;
+	color: #333;
+}
+
+.dataTable-pagination a:hover {
+	background-color: #d9d9d9;
+}
+
+.dataTable-pagination .active a,
+.dataTable-pagination .active a:focus,
+.dataTable-pagination .active a:hover {
+	background-color: #d9d9d9;
+	cursor: default;
+}
+
+.dataTable-pagination .ellipsis a,
+.dataTable-pagination .disabled a,
+.dataTable-pagination .disabled a:focus,
+.dataTable-pagination .disabled a:hover {
+	cursor: not-allowed;
+}
+
+.dataTable-pagination .disabled a,
+.dataTable-pagination .disabled a:focus,
+.dataTable-pagination .disabled a:hover {
+	cursor: not-allowed;
+	opacity: 0.4;
+}
+
+.dataTable-pagination .pager a {
+	font-weight: bold;
+}
+
+/* TABLE */
+.dataTable-table {
+	max-width: 100%;
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+
+
+.dataTable-table > tfoot > tr > th {
+	vertical-align: bottom;
+	text-align: left;
+	border-top: 1px solid #d9d9d9;
+}
+
+.dataTable-table th {
+	vertical-align: bottom;
+	text-align: left;
+}
+
+.dataTable-table th a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dataTable-sorter {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.dataTable-sorter::before,
+.dataTable-sorter::after {
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	right: 4px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	opacity: 0.2;
+}
+
+.dataTable-sorter::before {
+	border-top: 4px solid #000;
+	bottom: 0px;
+}
+
+.dataTable-sorter::after {
+	border-bottom: 4px solid #000;
+	border-top: 4px solid transparent;
+	top: 0px;
+}
+
+.asc .dataTable-sorter::after,
+.desc .dataTable-sorter::before {
+	opacity: 0.6;
+}
+
+.dataTables-empty {
+	text-align: center;
+}
+
+.dataTable-top::after, .dataTable-bottom::after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.dataTable-dropdown {
+	display: inline-flex;
+	align-items: center;
+}
+
+.dataTable-dropdown label {
+	white-space: nowrap;
+	margin-left: 15px;
+}
+
+/* .background_image{
+	background-image: url(/assets/layout/images/schoolbg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:center;
+	width: 100px;
+	height: 100px;
+} */
+
+/* Login Page */
+
+body{
+	background: url('/assets/layout/images/schoolbg2.png')no-repeat;
+
+	background-size: 1300px 600px;
+	
+}
+
+/*Login Form */
+.form_login{
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	margin: 20px;
+	height: 450px;
+	width: 375px;
+	border: 1px solid blue;
+	align-items:center;
+	margin:auto;
+	margin-top: 75px;
+	background-color: (34,83,94,10) ;
+	box-shadow:inset 0 0 20px #7e0421;
+	border-radius:50px;
+
+}
+.form_h5{
+
+	color: rgba(47,86,135,1);
+	font-size: 2rem;
+	border-bottom: 4px solid rgba( 255, 255, 255,0.5);
+	margin:20px;
+
+}
+
+/*Boxes */
+.box{
+	padding: 12px;
+	margin: 20px;
+	width: 65%;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color: rgba (0,0,0,0.5);
+	box-shadow:inset 0 0 20px #7e0421;
+	color: black;
+	font-size: 1 rem;
+}
+.login_box{
+	padding: 12px;
+	margin: 20px;
+	width: 40%;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color: rgba (0,0,0,0.5);
+	box-shadow:inset 0 0 20px green;
+	color: black;
+	font-size: 1 rem;
+}
+
+.submit_box{
+	padding: 10px 20px;
+	margin-top: 50px;
+	width: 50%;
+	background-color: rgba (0,0,0,10);
+	box-shadow: inset -3px -3px rgba (20,30,20,10);
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	
+}
+.submit{
+	cursor: pointer;
+	background-color: rgba( 255, 255, 255,0.1);
+	color: white;
+}
+.placeholder{
+	color:black;
+	opacity: 30;
+	
+}
+.invalid-credential{
+	
+	font-size: 12px;
+	color: rgb(207, 13, 52);
+}
+
+
+
+
+

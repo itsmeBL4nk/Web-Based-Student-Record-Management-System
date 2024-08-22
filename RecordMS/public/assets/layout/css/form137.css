@@ -1,0 +1,170 @@
+/* html {
+	scroll-behavior: smooth;
+} */
+
+.logo-img-left{
+	position: absolute;
+  padding-top: 10px;
+	left:80px;
+}
+
+.logo-img-right {
+	position: absolute;
+	right: 80px;
+}
+.table_lrn {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size:16px;
+    
+  }
+  
+.lrn_row {
+    border: 1px solid #dddddd;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+  .lrn_head {
+    border: px solid #a09a9a;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+
+.lines {
+    border: 1px solid #410b0b;
+    font-size:14px;
+    text-align: center;
+    background-color: #eaebef;
+    padding: 6px;
+  }
+  .input {
+    font-size:14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 7)
+    
+  }
+
+  .box{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+   
+    }
+
+    .table_enroll {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      font-size:16px;
+      
+    }
+    
+  .enroll_row {
+      border: 1px solid #dddddd;
+      font-size:14px;
+     
+      background-color: #a09a9a;
+      padding: 6px;
+    }
+    .enroll_head {
+      border: 1px solid #f1efef;
+      font-size:14px;
+      
+      background-color: #fcfafa;
+      padding: 6px;
+    }
+    .auto {
+      display:block;
+      border: 1px solid rgb(229, 224, 224);
+      max-height: fit-content;
+      overflow:auto;
+   }
+
+   .table_enrollment {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size:16px;
+    
+  }
+  
+.enrollment_row {
+    border: 1px solid #dddddd;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+  .enrollment_head {
+    border: 2px solid #0f0b0b;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+
+  .enrollment_td {
+    border: 2px solid #0f0b0b;
+    font-size:14px;
+    
+    padding: 6px;
+  }
+  /* .nest_table{
+    border: 1px solid black;
+      border-collapse: collapse;
+  } */
+  
+  /* .table-grid {
+    border: 1px solid #0f0b0b;
+    font-size:14px;
+  } */
+
+  
+
+
+  .table-grid {
+    width: 100%;
+    border-top:2px solid #0d0d0d;
+  }
+  
+  .table_average {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size:16px;
+    
+  }
+  
+.average_row {
+    border: 1px solid #111010;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+  .average_head {
+    border: 1px solid #0e0e0e;
+    font-size:14px;
+    
+    background-color: #a09a9a;
+    padding: 6px;
+  }
+
+  p { 
+    color: black;
+    margin: 0 auto;
+    padding-top: 5px;
+    overflow: hidden;
+     }
+    
+    .wrap { display:flex;}
+    
+ 
+  
+  

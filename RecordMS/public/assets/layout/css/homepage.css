@@ -1,0 +1,270 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.menu-area {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgba(189, 213, 232, 0.2);
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+	padding-right: 20px;
+}
+.nav {
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	position: absolute;
+	right: 50px;
+}
+ul{
+    display: flex;
+	justify-content: right;
+	list-style: none;
+	position: absolute;
+	right: 50px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+.logo-img {
+	position: absolute;
+	left: 50px;
+	
+  }
+  a {
+	margin: 15px;
+	color: rgb(226, 237, 226);
+	text-decoration: none;
+	text-transform: uppercase;
+	 box-sizing:  border-box;
+}
+
+  .logo{
+	  width:120px ;
+	  height:80px ;
+	  padding: 5px;
+	  margin: 20px;
+	  display: flex;
+	  float: top;
+	  
+}
+
+  
+  .slider{
+	width: 800px;
+	height: 500px;
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  .slides{
+	width: 800%;
+	height: 500px;
+	display: flex;
+  }
+  
+  .slides input{
+	display: none;
+  }
+  
+  .slide{
+	width: 20%;
+	transition: 1s;
+  }
+  
+  
+  .slide img {  
+  width: 950px;
+  height: 400px;
+  
+  }
+  
+  .navigation-mannual{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .mannual-btn{
+	border: 2px solid #ccc;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+  }
+  
+  .mannual-btn:not(:last-child){
+	margin-right: 40px;
+  }
+  
+  .mannual-btn:hover{
+	background-color: #ccc;
+  }
+  
+  #radio1:checked ~ .first{
+	margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+	margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+	margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+	margin-left: -60%;
+  }
+  
+  /* Automatic Navigation */
+  .navigation-auto{
+	position: absolute;
+	display: flex;
+	width: 800px;
+	justify-content: center;
+	margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+	border: 2px solid #333;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+	margin-right: 40px;
+  }
+  
+  #radio1:checked ~.navigation-auto .auto-btn-1{
+	background: #ccc;
+  }
+  
+  #radio2:checked ~.navigation-auto .auto-btn-2{
+	background: #ccc;
+  }
+  
+  
+  #radio3:checked ~.navigation-auto .auto-btn-3{
+	background: #ccc;
+  }
+  
+  #radio4:checked ~.navigation-auto .auto-btn-4{
+	background: #ccc;
+  }
+  
+  .login-box {
+	  width: 380px;
+	  height: 400px;
+	  background: rgba(0, 0, 0, 0.5);
+	  color: #fff;
+	  top: 50%;
+	  left: 82%;
+	  position: absolute;
+	  transform: translate(-50%,-50%);
+	  box-sizing:  border-box;
+	  padding: 50px 50px;
+  }
+  .avatar{
+	  width: 80px;
+	  height: 80px;
+	  border-radius: 50%;
+	  position: absolute;
+	  top: -50px;
+	  left: calc(50% - 50px);
+  }
+ 
+  .login-box p{
+	  margin: 0;
+	  padding-bottom: 10px;
+	  font-weight: bold;
+  
+  }
+  .login-box input{
+	  margin: 5%;
+	  margin-bottom: 10px;
+  }
+  .login-box input[type="text"], input[type="password"]
+  {
+	  border:  none;
+	  border-bottom:  1px solid blue;
+	  background: white;
+	  outline: none;
+	  height: 30px;
+	  
+	  font-size: 16px;
+  
+  
+  }
+  .login-box input[type="submit"]
+  {
+	  
+	  border: none;
+	  outline: none;
+	  height: 40px;
+	  width: 100px;
+	  background: #1c8adb;
+	  color: #fff;
+	  font-size: 15px;
+	  border-radius: 50px;
+  }
+  .login-box input[type="submit"]:hover
+  {
+	  cursor: pointer;
+	  background: #39dc79;
+	  color: #000;
+	  justify-content: center;
+  }
+  .login-box a{
+	  text-decoration: none;
+	  font-size: 15px;
+	  color: #fff;
+	  position: fixed;
+  }
+  .login-box a 
+  {
+	  text-decoration: none;
+	  font-size: 14px;
+	  color: #fff;
+  }
+  .text_centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+.home {
+		position:relative;
+		background-image: url('/assets/layout/images/school_image/p1.png');
+		width: 101.5%;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: 1300px 800px;
+		
+	}
+.about {
+		position:relative;
+		background-image: url('/assets/layout/images/school_image/p1.png');
+		width: 101.5%;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: 1300px 800px;
+		
+	}
+
+
+  
+  
+  
